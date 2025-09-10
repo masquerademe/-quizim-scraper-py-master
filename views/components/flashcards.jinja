@@ -1,0 +1,8 @@
+<!-- Expand given flashcard data, fc, into a HTML 'card' element. -->
+<!-- This element is intended to be in a list, so, it is expanded as an li tag. -->
+{% macro card(fc) %}
+    <li>
+        TERM: {{ fc.term }}<br>
+        DEF: {{ fc.definition }}
+    </li>
+{% endmacro %}

@@ -1,0 +1,115 @@
+/*
+ *   Copyright (c) 2023 Jack Bennett
+ *   All rights reserved.
+ *
+ *   Please see the LICENCE file for more information.
+ */
+
+@import "vars.scss";
+
+#setid-prompt {
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    form {
+        width: 90%;
+
+        margin: 1rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        #setid-formatted-block {
+            display: flex;
+
+            justify-content: center;
+            width: 23rem;
+
+            span {
+                color: rgb(100, 100, 100);
+                font-family: $font-fira-code;
+                font-size: 1.2rem;
+
+                margin-top: 0.25rem;
+            }
+
+            #setid {
+                background: none;
+                color: white;
+                font-family: $font-fira-code;
+                font-size: 1.2rem;
+
+                width: 100%;
+
+                outline: none;
+                border-color: transparent;
+                border-style: solid;
+                border-width: 0.2rem;
+                border-radius: 5rem;
+
+                transition: border-color 0.1s ease-in-out, box-shadow 0.15s linear;
+
+                text-align: center;
+                text-overflow: ellipsis;
+
+                &:hover, &:focus {
+                    border: 0.2rem solid $col-purple-dark;
+                }
+
+                &:focus {
+                    box-shadow: 0 0.2rem 0.9rem $col-purple-dark;
+                }
+
+                @media (max-width: $max-width-mobile-first) {
+                    min-width: 0;
+                }
+            }
+
+            @media (max-width: $max-width-mobile-first) {
+                width: 10rem;
+                max-width: 90%;
+
+                span {
+                    display: none;
+                }
+            }
+        }
+
+        #import-btn {
+            background: none;
+            font-family: $font-sofia;
+            font-size: 1.1rem;
+
+            width: 10%;
+            min-width: 6rem;
+
+            margin-top: 0.5rem;
+
+            @media (max-width: $max-width-mobile-first) {
+                min-width: none;
+                width: 50%;
+                height: 2rem;
+                font-weight: bold;
+            }
+
+            // more extremely narrow devices
+            @media (max-width: 150px) {
+                border: none;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+#cardset {
+    &.empty {
+        margin: 0;
+        padding: 0;
+    }
+}

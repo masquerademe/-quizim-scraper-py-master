@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="44.154079mm"
+   height="48.053719mm"
+   viewBox="0 0 44.15408 48.053718"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5, 2022-02-04)"
+   inkscape:export-filename="quizim_icon.svg"
+   inkscape:export-xdpi="122.88"
+   inkscape:export-ydpi="122.88"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#222222"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#222222"
+     showguides="true" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-863.10431,-299.82438)"
+     style="display:inline">
+    <path
+       d="m 885.18135,299.82438 c -13.46007,0 -22.07704,10.18939 -22.07704,24.02686 0,13.83747 8.61697,24.02686 22.07704,24.02686 4.7173,0 8.23958,-0.94345 11.88763,-3.14487 l 0.3236,0.30479 a 6.9728616,6.9728616 0 0 0 9.86581,-0.30479 v 0 l -5.03181,-4.78021 c 3.08199,-3.77385 5.03181,-10.06362 5.03181,-16.22757 0,-13.46008 -8.42828,-23.90107 -22.07704,-23.90107 z m 0.62897,34.21627 4.84312,4.59153 c -1.44664,0.75476 -3.52227,1.19504 -5.53499,1.19504 -7.54771,0 -12.57951,-6.35266 -12.57951,-15.97598 0,-9.62332 5.0318,-15.97598 12.64241,-15.97598 7.67351,0 12.64241,6.28976 12.64241,16.03887 0,3.77387 -0.69187,7.17033 -2.07563,9.93782 v 0 a 7.0044411,7.0044411 0 0 0 -9.93781,0.18872 z"
+       style="font-weight:bold;font-size:32.53px;line-height:1.25;font-family:FreeSans;-inkscape-font-specification:FreeSans;font-variant-ligatures:none;letter-spacing:-2.35843px;fill:#ffffff;fill-opacity:1;stroke-width:2.62073"
+       id="path25535" />
+  </g>
+</svg>

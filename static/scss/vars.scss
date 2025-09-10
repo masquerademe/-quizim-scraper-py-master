@@ -1,0 +1,22 @@
+/*
+ *   Copyright (c) 2023 Jack Bennett
+ *   All rights reserved.
+ *
+ *   Please see the LICENCE file for more information.
+ */
+
+$col-theme-dark-bg: rgb(15, 15, 15);
+$col-theme-dark-highlight: rgb(34, 34, 34);
+
+$col-ui-card-bg: rgb(27, 27, 27);
+
+$col-purple-dark: #3700dc;
+$col-purple-light: #b39aff;
+$col-red: #ff0000;
+$col-yellow: #e0ff00;
+$col-grad-redyellow: linear-gradient(348deg, $col-yellow 8%, $col-red 71%);
+
+$font-sofia: "Sofia Sans", sans-serif;
+$font-fira-code: "Fira Code", monospace;
+
+$max-width-mobile-first: 768px;

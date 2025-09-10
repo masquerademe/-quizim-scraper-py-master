@@ -1,0 +1,59 @@
+<!-- Shared <head> tag across all templates. -->
+<!-- Includes all necessary shared styelsheets. -->
+{% macro head(style_css_src) %}
+    <head>
+        <title>Quizim WebApp</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" typ="text/css" href="{{ style_css_src }}">
+    </head>
+{% endmacro %}
+
+
+<!-- Global navigation bar and header. -->
+{% macro header(integrated) %}
+    <header
+        {% if integrated %}
+            class="integrated"
+        {% endif %}
+    >
+        <div id="header-elem-icon">
+            <img class="quizim-logo-full" src="/static/img/quizim_full_col.svg">
+        </div>
+        <ul id="header-elem-navbar">
+            <a style="--i: 0" href="/home" class="btn-purple-glow">Home</a>
+            <a style="--i: 1" href="/flashcards" class="btn-purple-glow">Flashcards</a>
+        </ul>
+        <div id="header-elem-burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+{% endmacro %}
+
+
+<!-- Global footer. -->
+{% macro footer() %}
+    <footer>
+        <hr>
+
+        <div id="footer-elem-icon">
+            <img class="quizim-logo-full" src="/static/img/quizim_full.svg">
+        </div>
+
+        <p>
+            Quizim, an open-source web app
+            <br>
+            &#169; 2023 Jack Bennett - licenced under the <a href="https://github.com/kosude/quizim/blob/master/LICENCE" target="_blank">
+                MIT Licence</a>.
+            <br><br>
+            <a href="https://github.com/kosude/quizim" target="_blank">View source (GitHub)</a><br>
+            <span style="font-style: italic; color: rgb(94, 94, 94)">Contributions welcome!!! ^-^</span>
+        </p>
+    </footer>
+{% endmacro %}

@@ -1,0 +1,21 @@
+{% import "components/shared.jinja" as shared %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+    {{ shared.head(style_css_src) }}
+
+    <body>
+        <div class="wrapper">
+            {{ shared.header(true) }}
+
+            <div class="content buffered">
+                Some content.
+            </div>
+
+            {{ shared.footer() }}
+        </div>
+
+        <script type="module" src="/static/js/global.js"></script>
+    </body>
+</html>

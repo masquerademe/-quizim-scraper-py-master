@@ -1,0 +1,31 @@
+{% import "components/shared.jinja" as shared %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Quizim WebApp</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <h1>Redirecting...</h1>
+
+        <p>
+            Note that JavaScript is <b>highly</b> recommended for the Quizim WebApp to function.
+        </p>
+
+        <p>
+            If the redirect isn't working, or if you want to continue without JavaScript (not recommended) click
+            <a href="/home">here</a>.
+        </p>
+
+        <script type="text/javascript">
+            window.location.replace("/home");
+        </script>
+    </body>
+</html>

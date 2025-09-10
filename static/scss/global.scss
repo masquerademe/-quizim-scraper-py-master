@@ -1,0 +1,101 @@
+/*
+ *   Copyright (c) 2023 Jack Bennett
+ *   All rights reserved.
+ *
+ *   Please see the LICENCE file for more information.
+ */
+
+@import "vars.scss";
+
+html {
+    width: 100%;
+    height: 100%;
+
+    body {
+        width: 100%;
+        height: 100%;
+
+        margin: 0;
+        padding: 0;
+
+        background-color: $col-theme-dark-bg;
+
+        overflow-x: hidden;
+    }
+}
+
+a {
+    text-decoration: underline;
+    color: $col-purple-light;
+    cursor: pointer;
+}
+
+.quizim-logo-full {
+    user-select: none;
+
+    &.black {
+        filter: brightness(0);
+    }
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+
+    display: inline-block;
+
+    .content {
+        margin-top: 1rem;
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        color: white;
+        font-family: $font-sofia;
+        font-size: 1em;
+
+        &.buffered {
+            /* extra space given for header */
+            margin-top: 5rem;
+        }
+    }
+}
+
+.ui-card {
+    background-color: $col-ui-card-bg;
+
+    border-radius: 0.6rem;
+}
+
+.error-message {
+    display: block;
+
+    color: yellow;
+    margin-bottom: 1rem;
+
+    font-weight: bold;
+    font-family: $font-fira-code;
+    font-size: 0.9rem;
+}
+
+.btn-purple-glow {
+    color: white;
+
+    outline: none;
+    border: 2px solid $col-purple-dark;
+    border-radius: 0.5rem;
+
+    transition: background-color 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+
+    cursor: pointer;
+
+    &:hover, &:focus {
+        background-color: $col-purple-dark !important;
+        box-shadow: 0 0.2rem 0.9rem $col-purple-dark;
+        font-weight: bold;
+    }
+}
